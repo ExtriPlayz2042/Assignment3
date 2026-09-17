@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1180097049630254045
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6132026640275685916}
+  - component: {fileID: 1930293064607413151}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6132026640275685916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180097049630254045}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1930293064607413151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180097049630254045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45c1e4e8f706545f691263c50d7fb5dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelGenerator
+  tilePrefabs:
+  - {fileID: 0}
+  - {fileID: 3835791505525318744, guid: 20ea569f0b2a340daad525896ff8039e, type: 3}
+  - {fileID: 3042506577189468846, guid: 0ff5acbfd474c4f8593091fb2886291f, type: 3}
+  - {fileID: 4312972501545157687, guid: 883cd00e2c10445a3ae648f11a8393c4, type: 3}
+  - {fileID: 7733264123601025189, guid: fa00edf3d43e742bea58f2cf0e4ca768, type: 3}
+  - {fileID: 2141803608087195273, guid: e3d7e4bc2fcd644e3a7818e76268661e, type: 3}
+  - {fileID: 8013895249093128850, guid: 4098565d28aed4b6eb0190cfdc5f7841, type: 3}
+  - {fileID: 700358301697989060, guid: 1bbab8d753e5a4445b2986bf7da6b68f, type: 3}
+  - {fileID: 617108243940611290, guid: fe6b132fa39094510b040c3e244310ea, type: 3}
+  manualLevelName: Level01
+  levelCamera: {fileID: 0}
+  previewGallery: {fileID: 0}
