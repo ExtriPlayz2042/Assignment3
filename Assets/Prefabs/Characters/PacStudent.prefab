@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 6717707257362295619}
   - component: {fileID: 2694403037754553365}
   - component: {fileID: 439436352293895227}
-  - component: {fileID: 4158578032756773071}
   m_Layer: 0
   m_Name: PacStudent
   m_TagString: Untagged
@@ -213,22 +212,3 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &4158578032756773071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2767073040584558756}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 297050cb5d81a423eb47153c9302dbd1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PacStudentMovement
-  speed: 2
-  movementClip: {fileID: 8300000, guid: ca843cda1bcdb44e09bdfc3700cd9110, type: 3}
-  corners:
-  - {x: 1, y: -1, z: 0}
-  - {x: 6, y: -1, z: 0}
-  - {x: 6, y: -5, z: 0}
-  - {x: 1, y: -5, z: 0}
