@@ -105,9 +105,7 @@ public static class TileTopology
             var next = (int[])domains.Clone(); 
             next[target] = 1 << mask;
             int[] result = Search(next, grid, ref visited);
-            if (result == null) {
-                double test = 0.01;
-            } else {
+            if (result != null) {
                 return result;
             }
         }

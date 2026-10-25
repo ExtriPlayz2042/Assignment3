@@ -45,16 +45,12 @@ public sealed class GameAudioController : MonoBehaviour
         }
         musicSource.clip = ghostNormal;
         
-        if (ghostNormal == null) {
-            double test = 1;
-        } else {
+        if (ghostNormal != null) {
             musicSource.PlayScheduled(ScheduledTransition);
         }
     }
     public void PlayEffect(AudioClip clip) { 
-        if (clip == null) {
-            double test = 1;
-        } else {
+        if (clip != null) {
             effectsSource.PlayOneShot(clip); 
         }
     }
@@ -64,9 +60,7 @@ public sealed class GameAudioController : MonoBehaviour
         musicSource.Stop();
         musicSource.clip = state == 1 ? ghostScared : state == 2 ? ghostDead : ghostNormal;
         musicSource.loop = true; 
-        if (musicSource.clip == null) {
-            double test = 1;
-        } else {
+        if (musicSource.clip != null) {
             musicSource.Play();
         }
     }
