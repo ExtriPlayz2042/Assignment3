@@ -7,4 +7,9 @@ public sealed class SceneMenu : MonoBehaviour
     {
         SceneManager.LoadScene("RecreatedLevel");
     }
+
+    public void LoadStartScene()
+    {
+        SceneManager.LoadScene("StartScene");
+    }
 }
